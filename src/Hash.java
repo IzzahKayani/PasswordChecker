@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public interface Hash
+{int hash(String s, int m);}
 
-public class Hash {
-}
