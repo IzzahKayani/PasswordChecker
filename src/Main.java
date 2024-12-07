@@ -29,7 +29,7 @@ public class Main
             if(s.contains(password))
                 result = "Weak Password, should not be in the dictionary";
             if(password.matches("^[a-zA-Z]+\\d$") && s.contains(password.substring(0, password.length()-1)))
-                result = "Weak Password, should not be a dictonary word with a single digit";
+                result = "Weak Password, should not be a dictionary word with a single digit";
         }
         return result;
     }
@@ -44,7 +44,7 @@ public class Main
             if(l.contains(password))
                 result = "Weak Password, should not be in the dictionary";
             if(password.matches("^[a-zA-Z]+\\d$") && l.contains(password.substring(0, password.length()-1)))
-                result = "Weak Password, should not be a dictonary word with a single digit";
+                result = "Weak Password, should not be a dictionary word with a single digit";
         }
         return result;
     }
